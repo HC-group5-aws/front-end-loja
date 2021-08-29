@@ -13,7 +13,7 @@
 	},
 	"flex-layout.col#content": {
 		"props": {
-			"preventVerticalStretch": false,
+			"preventVerticalStretch": true,
 			"paddingLeft": 5,
 			"paddingRight": 5,
 			"blockClass": "product-details"
@@ -85,7 +85,7 @@
 	},
 	"add-to-cart-button#details": {
 		"props": {
-			"text": "Começar a usar o AWS Lambda",
+			"text": "Começar a usar a AWS",
 			"customToastUrl": "/checkout/#/cart",
 			"blockClass": "subscribe"
 		}

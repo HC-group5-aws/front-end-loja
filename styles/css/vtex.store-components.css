@@ -22,35 +22,34 @@
 .infoCardTextContainer {
 	width: 100%;
 	border-top: 5px solid #232f3e;
-    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%), 0 0 0 1px rgb(0 0 0 / 4%);
-    background-color: #fff;
+	box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%), 0 0 0 1px rgb(0 0 0 / 4%);
+	background-color: #fff;
 	margin: 25px 0;
 	padding: auto;
 }
-.infoCardTextContainer :global(.vtex-button){
+.infoCardTextContainer :global(.vtex-button) {
 	background: #fff;
 	border: none;
 	color: #007eb9;
 	width: 100%;
-
 }
-.infoCardHeadline{
+.infoCardHeadline {
 	text-align: left;
 }
 
-:global(.vtex-store-components-3-x-infoCardCallActionContainer){
-	display: inline-block;     
-	position: relative;    
-	z-index: 1;     
+:global(.vtex-store-components-3-x-infoCardCallActionContainer) {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
 	width: 100%;
 	height: 100%;
 }
 
-:global(.vtex-store-components-3-x-infoCardContainer){
+:global(.vtex-store-components-3-x-infoCardContainer) {
 	height: 100%;
 }
 
-:global(.vtex-store-components-3-x-infoCardTextContainer){
+:global(.vtex-store-components-3-x-infoCardTextContainer) {
 	height: 100%;
 }
 
@@ -86,6 +85,7 @@
 .content--description {
 	font-size: 1.1rem;
 	line-height: 23px;
+	color: #fff;
 }
 
 .imageElement--cover {

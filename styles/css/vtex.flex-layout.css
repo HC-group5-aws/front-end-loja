@@ -6,8 +6,12 @@
 }
 
 /* Product Page */
-.flexRowContent--product-page {
+/* .flexRowContent--product-page {
 	min-height: 500px;
+} */
+
+.flexRowContent--product-page .stretchChildrenWidth {
+	padding-bottom: 0;
 }
 
 .flexCol--product-header {
@@ -61,9 +65,9 @@
 /* flex soluiton */
 
 .flexCol--solucoes {
-	margin: 5px 30px
+	margin: 5px 30px;
 }
 
-:global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
 	padding-bottom: 50px;
 }

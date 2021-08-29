@@ -18,10 +18,10 @@
 	margin: 0.1rem;
 }
 
-.styledLinkContent--footer:hover {
-	color: #ec7211;
-}
-
 .styledLink--footer {
 	font-size: 0.875rem;
+}
+
+.styledLinkContent--footer:hover {
+	color: #ec7211;
 }
