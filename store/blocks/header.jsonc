@@ -122,7 +122,8 @@
 			"menu-item#solucoesMobile",
 			"menu-item#definicaoPrecoMobile",
 			"menu-item#documentacaoMobile",
-			"menu-item#aprendaMobile"
+			"menu-item#aprendaMobile",
+			"menu-item#aboutAwsMobile"
 		],
 		"props": {
 			"orientation": "vertical",
@@ -207,6 +208,21 @@
 			"iconToTheRight": true
 		}
 	},
+	"menu-item#aboutAwsMobile": {
+		"props": {
+			"id": "menu-item-about-aws",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/about-aws",
+				"noFollow": false,
+				"tagTitle": "Sobre a AWS",
+				"text": "Sobre a AWS"
+			},
+			"iconToTheRight": true
+		}
+	},
 
 	// desktop menu
 
@@ -216,7 +232,8 @@
 			"menu-item#solucoes",
 			"menu-item#definicaoPreco",
 			"menu-item#documentacao",
-			"menu-item#aprenda"
+			"menu-item#aprenda",
+			"menu-item#about-aws"
 		]
 	},
 	"menu-item#produtos": {
@@ -290,6 +307,21 @@
 				"noFollow": false,
 				"tagTitle": "Aprenda",
 				"text": "Aprenda"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#about-aws": {
+		"props": {
+			"id": "menu-item-about-aws",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/about-aws",
+				"noFollow": false,
+				"tagTitle": "Sobre a AWS",
+				"text": "Sobre a AWS"
 			},
 			"iconToTheRight": true
 		}
