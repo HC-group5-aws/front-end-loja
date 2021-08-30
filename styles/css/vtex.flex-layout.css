@@ -65,6 +65,7 @@
 /* flex soluiton */
 .flexCol--solucoes {
 	margin: 5px 30px;
+	padding: 0;
 }
 
 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -99,4 +100,22 @@
 
 .flexCol--about-page {
 	padding: 0;
+}
+
+/* Call To Action */
+.flexRow--call-to-action-content {
+	min-height: 100%;
+}
+
+.flexRowContent--call-to-action-content .stretchChildrenWidth {
+	padding-bottom: 0;
+}
+
+.flexCol--call-to-action-texts,
+.flexCol--call-to-action-video {
+	padding: 0;
+}
+
+.flexColChild--call-to-action-texts {
+	max-width: 600px;
 }

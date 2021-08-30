@@ -28,7 +28,7 @@
 	.label {
 		font-size: 0.7rem;
 	}
-	.container :global(.vtex-button) {
+	/* .container :global(.vtex-button) {
 		width: 80%;
-	}
+	} */
 }

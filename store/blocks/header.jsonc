@@ -172,8 +172,8 @@
 				"type": "internal",
 				"href": "#",
 				"noFollow": false,
-				"tagTitle": "Definicao Preco",
-				"text": "Definição de Preço"
+				"tagTitle": "Preco",
+				"text": "Preço"
 			},
 			"iconToTheRight": true
 		}
@@ -217,8 +217,8 @@
 				"type": "internal",
 				"href": "/about-aws",
 				"noFollow": false,
-				"tagTitle": "Sobre a AWS",
-				"text": "Sobre a AWS"
+				"tagTitle": "Sobre",
+				"text": "Sobre"
 			},
 			"iconToTheRight": true
 		}
@@ -275,8 +275,8 @@
 				"type": "internal",
 				"href": "#",
 				"noFollow": false,
-				"tagTitle": "Definicao Preco",
-				"text": "Definição de Preço"
+				"tagTitle": "Preco",
+				"text": "Preço"
 			},
 			"iconToTheRight": true
 		}
@@ -320,8 +320,8 @@
 				"type": "internal",
 				"href": "/about-aws",
 				"noFollow": false,
-				"tagTitle": "Sobre a AWS",
-				"text": "Sobre a AWS"
+				"tagTitle": "Sobre",
+				"text": "Sobre"
 			},
 			"iconToTheRight": true
 		}
