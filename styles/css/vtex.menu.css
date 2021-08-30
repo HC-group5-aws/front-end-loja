@@ -1,5 +1,10 @@
 .styledLinkContent {
+	width: auto;
 	color: #d5dbdb;
+}
+
+.styledLinkContent:hover {
+	color: #ec7211;
 }
 
 /* Footer */
@@ -13,6 +18,10 @@
 	max-width: 230px;
 }
 
+.menuItem--footer {
+	width: auto;
+}
+
 .styledLinkContainer--footer {
 	padding: 0.1rem;
 	margin: 0.1rem;
@@ -22,6 +31,6 @@
 	font-size: 0.875rem;
 }
 
-.styledLinkContent--footer:hover {
+/* .styledLinkContent--footer:hover {
 	color: #ec7211;
-}
+} */
