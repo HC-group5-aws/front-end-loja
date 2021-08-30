@@ -1,6 +1,6 @@
 {
 	"store.home": {
-		"blocks": ["slider-layout#banner", "flex-layout.row#solutions"]
+		"blocks": ["slider-layout#banner", "capture-data", "flex-layout.row#solutions"]
 	},
 
 	"flex-layout.row#solutions":{
