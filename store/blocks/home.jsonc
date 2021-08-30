@@ -1,17 +1,25 @@
 {
 	"store.home": {
-		"blocks": ["slider-layout#banner", "flex-layout.row#solutions"]
+		"blocks": [
+			"slider-layout#banner",
+			"__fold__",
+			"flex-layout.row#solutions"
+		]
 	},
 
-	"flex-layout.row#solutions":{
-		"children":["flex-layout.col#solutions"]
+	"flex-layout.row#solutions": {
+		"children": ["flex-layout.col#solutions"]
 	},
 
 	"flex-layout.col#solutions": {
-		"props":{
-			"blockClass":"solucoes"
+		"props": {
+			"blockClass": "solucoes"
 		},
-		"children":[ "rich-text#solutions", "flex-layout.row#soluitonsUp", "flex-layout.row#soluitonsDown"]
+		"children": [
+			"rich-text#solutions",
+			"flex-layout.row#soluitonsUp",
+			"flex-layout.row#soluitonsDown"
+		]
 	},
 	"rich-text#solutions": {
 		"props": {
