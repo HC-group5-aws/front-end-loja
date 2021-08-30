@@ -11,7 +11,7 @@
 			"blockClass": "carousel",
 			"fullWidth": true,
 			"slideTransition": {
-				"speed": 3000,
+				"speed": 400,
 				"delay": 0,
 				"timing": ""
 			},
