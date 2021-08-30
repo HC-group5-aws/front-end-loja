@@ -78,6 +78,7 @@
 }
 
 .flexRowContent .stretchChildrenWidth :global(.vtex-button) {
+	width: 200px;
 	border-color: #be952c #a68226 #9b7924;
 	background: #eeba37;
 	color: #333 !important;
