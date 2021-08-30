@@ -85,7 +85,7 @@
 	},
 	"add-to-cart-button#details": {
 		"props": {
-			"text": "Começar a usar a AWS",
+			"text": "Assinar",
 			"customToastUrl": "/checkout/#/cart",
 			"blockClass": "subscribe"
 		}
