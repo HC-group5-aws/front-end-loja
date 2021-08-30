@@ -1,11 +1,32 @@
 {
 	"store.home": {
 		"blocks": [
+			// "responsive-layout.desktop",
+			// "responsive-layout.mobile"
 			"slider-layout#banner",
 			"__fold__",
+			"flex-layout.row#call-to-action-desktop",
 			"flex-layout.row#solutions"
 		]
 	},
+
+	// "responsive-layout.desktop": {
+	// 	"children": [
+	// 		"slider-layout#banner",
+	// 		"__fold__",
+	// 		"flex-layout.row#call-to-action-desktop",
+	// 		"flex-layout.row#solutions"
+	// 	]
+	// },
+
+	// "responsive-layout.mobile": {
+	// 	"children": [
+	// 		"slider-layout#banner",
+	// 		"__fold__",
+	// 		"flex-layout.row#call-to-action-desktop",
+	// 		"flex-layout.row#solutions"
+	// 	]
+	// },
 
 	"flex-layout.row#solutions": {
 		"children": ["flex-layout.col#solutions"]
