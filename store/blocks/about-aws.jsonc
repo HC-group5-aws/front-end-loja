@@ -62,7 +62,7 @@
 
 	"login#about-page": {
 		"props": {
-			"iconLabel": "Criar conta gratuita >>"
+			"iconLabel": "Criar conta >>"
 		}
 	},
 
