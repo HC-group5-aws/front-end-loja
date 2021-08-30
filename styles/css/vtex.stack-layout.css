@@ -4,5 +4,20 @@
 
 .stackItem {
 	width: 100%;
+	min-height: 100%;
+}
+
+/* Call To Action */
+.stackContainer--call-to-action {
+	display: flex;
+	/* background: rgb(29, 40, 50);
+	background: linear-gradient(
+		0deg,
+		rgba(29, 40, 50, 1) 35%,
+		rgba(29, 40, 50, 0.6674019949776786) 100%
+	); */
+}
+
+.stackItem--call-to-action {
 	height: 100%;
 }

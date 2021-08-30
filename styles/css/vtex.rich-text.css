@@ -12,12 +12,71 @@
 
 /* solutions rich text */
 
-.paragraph--solucoes{
-
+.paragraph--solucoes {
 	margin: auto 0;
 }
 
-.container--solucoes{
-	
-	margin: auto 0
+.container--solucoes {
+	margin: auto 0;
+}
+
+/* About Page */
+.heading--title {
+	color: #e77911;
+	font-size: 34px;
+}
+
+.paragraph--safe {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 45px;
+}
+
+.paragraph--about-page {
+	word-break: break-word;
+	font-size: 18px;
+	color: rgb(75, 75, 75);
+}
+
+.paragraph--benefits,
+.paragraph--agility,
+.paragraph--safe,
+.paragraph--solutions,
+.paragraph--app-host,
+.paragraph--sites,
+.paragraph--backup,
+.paragraph--ti,
+.paragraph--delivery,
+.paragraph--database {
+	font-size: 16px;
+}
+
+.heading--about-titles,
+.heading--solutions {
+	font-size: 20px;
+	font-weight: 600;
+	color: #1f3d5c;
+	margin-bottom: 0;
+}
+
+.heading--solutions {
+	font-weight: 100;
+	font-size: 28px;
+}
+
+.link--beneftis,
+.link--agility,
+.link--safe {
+	text-decoration: none;
+	color: #007eb9;
+}
+
+.link--beneftis:hover,
+.link--agility:hover,
+.link--safe:hover {
+	color: #e77911;
+}
+
+/* Call To Action */
+.wrapper--title-cta .heading {
+	margin-bottom: 3px;
 }

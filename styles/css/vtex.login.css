@@ -1,35 +1,34 @@
-.container :global(.vtex-button){
-    background: #ec7211;
-    border: 1px solid;
-    border-radius: 3px;
-    border-color: #e76d0c #e15500 #e15500;
-    background-image: linear-gradient(180deg,#f67c1b 0,#e15500);
-    box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 20%);
-    min-height: 2vh;
+.container :global(.vtex-button) {
+	background: #ec7211;
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: #e76d0c #e15500 #e15500;
+	background-image: linear-gradient(180deg, #f67c1b 0, #e15500);
+	box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 20%);
+	min-height: 2vh;
 }
 
-.container--login{
-    display: none;
+.container--login {
+	display: none;
 }
-.label{
-    color: #d5dbdb;
-    font-size: 0.750rem;
-    font-weight: 500;
-    line-height: 6px;
-    padding: 0.1vh 1vw;
+.label {
+	color: #d5dbdb;
+	font-size: 0.75rem;
+	font-weight: 500;
+	line-height: 6px;
+	padding: 0.1vh 1vw;
 }
 
 @media screen and (min-width: 1em) {
-    .label{
-        display: block;
-    }
+	.label {
+		display: block;
+	}
 }
-@media(max-width: 1026px) {
-
-    .label{
-        font-size: 0.700rem;
-    }
-    .container :global(.vtex-button){
-        width: 80%;
-    }
+@media (max-width: 1026px) {
+	.label {
+		font-size: 0.7rem;
+	}
+	/* .container :global(.vtex-button) {
+		width: 80%;
+	} */
 }

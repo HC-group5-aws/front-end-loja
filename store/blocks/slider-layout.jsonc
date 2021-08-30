@@ -11,9 +11,9 @@
 			"blockClass": "carousel",
 			"fullWidth": true,
 			"slideTransition": {
-				"speed": 900,
+				"speed": 400,
 				"delay": 0,
-				"timing": "900"
+				"timing": ""
 			},
 			"autoplay": {
 				"timeout": 3000,
@@ -36,6 +36,7 @@
 			"fullWidth": true
 		}
 	},
+
 	"image#banner2": {
 		"props": {
 			"src": "assets/banner/centro-de-recursos.png",
