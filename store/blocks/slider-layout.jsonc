@@ -36,6 +36,7 @@
 			"fullWidth": true
 		}
 	},
+
 	"image#banner2": {
 		"props": {
 			"src": "assets/banner/centro-de-recursos.png",
