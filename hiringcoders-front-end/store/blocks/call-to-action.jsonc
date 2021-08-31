@@ -6,9 +6,10 @@
 			"horizontalAlign": "center",
 			"blockClass": "call-to-action"
 		},
-		"children": ["flex-layout.col#call-to-action-container"]
+		"children": [
+			"flex-layout.col#call-to-action-container"
+		]
 	},
-
 	"flex-layout.col#call-to-action-container": {
 		"props": {
 			"preventVerticalStretch": true,
@@ -16,9 +17,10 @@
 			"paddingRight": 5,
 			"blockClass": "call-to-action"
 		},
-		"children": ["stack-layout#call-to-action"]
+		"children": [
+			"stack-layout#call-to-action"
+		]
 	},
-
 	"stack-layout#call-to-action": {
 		"children": [
 			"image#call-to-action",
@@ -29,7 +31,6 @@
 			"blockClass": "call-to-action"
 		}
 	},
-	
 	// Image Stack Layout
 	"image#call-to-action": {
 		"props": {
@@ -38,7 +39,6 @@
 			"src": "assets/call-to-action/call-to-action.jpg"
 		}
 	},
-
 	// Texts - Call To Action
 	"flex-layout.col#call-to-action-texts": {
 		"children": [
@@ -52,7 +52,6 @@
 			"blockClass": "call-to-action-texts"
 		}
 	},
-
 	"rich-text#call-to-action-title": {
 		"props": {
 			"text": "## Computação em nuvem com a AWS",
@@ -60,18 +59,20 @@
 			"textColor": "c-on-action-primary"
 		}
 	},
-
 	"rich-text#call-to-action-description": {
 		"props": {
 			"text": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo. Milhões de clientes, incluindo as startups de crescimento mais rápido, grandes empresas e os maiores órgãos governamentais, estão usando a AWS para reduzirem seus custos, ficarem mais ágeis e inovarem mais rapidamente.",
-			"textColor": "c-on-action-primary"
+			"textColor": "c-on-action-primary",
+			"blockClass": "cta-description"
 		}
 	},
 	// Modal
 	"modal-trigger#capture-leads": {
-		"children": ["modal-layout#capture-leads", "rich-text#capture-leads"]
+		"children": [
+			"modal-layout#capture-leads",
+			"rich-text#capture-leads"
+		]
 	},
-
 	"rich-text#capture-leads": {
 		"props": {
 			"text": "Saiba mais",
@@ -80,7 +81,9 @@
 		}
 	},
 	"modal-layout#capture-leads": {
-		"children": ["capture-data"]
+		"children": [
+			"capture-data"
+		]
 	},
 	"rich-text#modal-content": {
 		"props": {

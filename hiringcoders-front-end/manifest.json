@@ -51,7 +51,8 @@
     "vtex.condition-layout": "2.x",
     "vtex.product-specifications": "1.x",
     "vtex.modal-layout": "0.x",
-    "hiringcoders202105.service-hiringcoders": "0.x"
+    "hiringcoders202105.service-hiringcoders": "0.x",
+    "vtex.landingpageregister": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -4,12 +4,13 @@
 			// "responsive-layout.desktop",
 			// "responsive-layout.mobile"
 			"slider-layout#banner",
-			"__fold__",
+			"__fold__.experimentalLazyAssets",
 			"flex-layout.row#call-to-action-desktop",
-			"flex-layout.row#solutions"
+			"flex-layout.row#article-up",
+			"flex-layout.row#solutions",
+			"flex-layout.row#article-down"
 		]
 	},
-
 	// "responsive-layout.desktop": {
 	// 	"children": [
 	// 		"slider-layout#banner",
@@ -18,7 +19,6 @@
 	// 		"flex-layout.row#solutions"
 	// 	]
 	// },
-
 	// "responsive-layout.mobile": {
 	// 	"children": [
 	// 		"slider-layout#banner",
@@ -27,11 +27,11 @@
 	// 		"flex-layout.row#solutions"
 	// 	]
 	// },
-
 	"flex-layout.row#solutions": {
-		"children": ["flex-layout.col#solutions"]
+		"children": [
+			"flex-layout.col#solutions"
+		]
 	},
-
 	"flex-layout.col#solutions": {
 		"props": {
 			"blockClass": "solucoes"

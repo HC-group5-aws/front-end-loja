@@ -1,8 +1,10 @@
 {
 	"store.custom#about-aws": {
-		"blocks": ["flex-layout.row#about-page"]
+		"blocks": [
+			"capture-data",
+			"flex-layout.row#about-page"
+		]
 	},
-
 	"flex-layout.row#about-page": {
 		"children": [
 			// "image#mobile-phone",
@@ -19,7 +21,6 @@
 			"blockClass": "about-page"
 		}
 	},
-
 	// "sticky-layout#sidebar": {
 	// 	"props": {
 	// 		"position": "top",
@@ -27,7 +28,6 @@
 	// 	},
 	// 	"children": ["flex-layout.col#sidebar"]
 	// },
-
 	// "flex-layout.col#sidebar": {
 	// 	"props": {
 	// 		"marginTop": 4,
@@ -36,7 +36,6 @@
 	// 	},
 	// 	"children": ["rich-text#title-about-page"]
 	// },
-
 	"flex-layout.col#text-about-page": {
 		"children": [
 			"flex-layout.row#heading",
@@ -52,100 +51,98 @@
 			"blockClass": "about-page"
 		}
 	},
-
 	"flex-layout.row#heading": {
-		"children": ["rich-text#title-about-page", "login#about-page"],
+		"children": [
+			"rich-text#title-about-page",
+			"login#about-page"
+		],
 		"props": {
 			"blockClass": "about-page"
 		}
 	},
-
 	"login#about-page": {
 		"props": {
 			"iconLabel": "Criar conta >>"
 		}
 	},
-
 	"rich-text#title-about-page": {
 		"props": {
 			"text": "# Sobre a AWS",
 			"blockClass": "title"
 		}
 	},
-
 	"rich-text#about-page": {
 		"props": {
 			"text": "Em 2006, a Amazon Web Services (AWS) começou a oferecer serviços de infraestrutura de TI para empresas por meio de serviços web – hoje conhecidos como computação em nuvem. Um dos principais benefícios da computação em nuvem é a oportunidade de substituir diretamente gastos com a infraestrutura principal por preços variáveis baixos, que se ajustam de acordo com sua empresa. Com a Nuvem, as empresas não precisam mais planejar ou adquirir servidores, assim como outras infraestruturas de TI, com semanas ou meses de antecedência. Em vez disso, podem instantaneamente rodar centenas de milhares de servidores em minutos e oferecer resultados mais rapidamente. <br /> <br /> Atualmente, a Amazon Web Services oferece uma plataforma de infraestrutura altamente confiável, escalável e de baixo custo na nuvem que potencializa centenas de milhares de empresas em 190 países ao redor do mundo. Com datacenters localizados nos EUA, Europa, Brasil, Cingapura, Japão e Austrália, clientes de todos os setores estão tendo vantagens com os seguintes benefícios:",
 			"blockClass": "about"
 		}
 	},
-
 	// Benefits
 	"flex-layout.col#benefits": {
-		"children": ["rich-text#benefits-title", "rich-text#benefits-content"],
+		"children": [
+			"rich-text#benefits-title",
+			"rich-text#benefits-content"
+		],
 		"props": {
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#benefits-title": {
 		"props": {
 			"text": "#### Baixo custos",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#benefits-content": {
 		"props": {
 			"text": "A AWS oferece preços baixos e do tipo pague o que usar, sem despesas iniciais nem compromissos em longo prazo. Somos capazes de construir e gerenciar uma infraestrutura em escala global e passar os benefícios de redução de custos para você sob a forma de preços mais baixos. Com a eficiência de nosso dimensionamento e expertise, foi possível reduzir preços em 15 diferentes ocasiões nos últimos quatro anos. [Visite o Centro de informações sobre economia para saber mais.](https://aws.amazon.com/pt/economics/)",
 			"blockClass": "benefits"
 		}
 	},
-
 	// Agility
 	"flex-layout.col#agility": {
-		"children": ["rich-text#agility-title", "rich-text#agility-content"],
+		"children": [
+			"rich-text#agility-title",
+			"rich-text#agility-content"
+		],
 		"props": {
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#agility-title": {
 		"props": {
 			"text": "#### Agilidade e elasticidade instantânea",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#agility-content": {
 		"props": {
 			"text": "A AWS fornece uma ampla infraestrutura de nuvem global que permite realizar mudanças, experimentar e interagir rapidamente. Em vez de esperar semanas ou meses pelo hardware, você pode instantaneamente implantar novos aplicativos, expandir instantaneamente à medida que sua carga de trabalho cresce e instantaneamente reduzir com base na demanda. Se você precisa de um ou milhares de servidores virtuais, se precisa deles por algumas horas ou todos os dias, ainda assim você só paga pelo que utiliza. [Visite o Centro de informações sobre arquitetura para saber mais.](https://aws.amazon.com/pt/architecture/)",
 			"blockClass": "agility"
 		}
 	},
-
 	// Seguro
 	"flex-layout.col#safe": {
-		"children": ["rich-text#safe-title", "rich-text#safe-content"],
+		"children": [
+			"rich-text#safe-title",
+			"rich-text#safe-content"
+		],
 		"props": {
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#safe-title": {
 		"props": {
 			"text": "#### Seguro",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#safe-content": {
 		"props": {
 			"text": "A AWS é uma plataforma de tecnologia segura e durável com certificações e auditorias reconhecidas pelo setor: PCI DSS Level 1, ISO 27001, FISMA Moderate, FedRAMP, HIPAA, e relatórios de auditoria SOC 1 (anteriormente referida como SAS 70 e/ou SSAE 16) e SOC 2. Nossos datacenters e centros de serviços têm várias camadas de segurança física e operacional para garantir a integridade e a segurança dos seus dados. [Visite o Centro de informações sobre segurança para saber mais.](https://aws.amazon.com/pt/security/)",
 			"blockClass": "safe"
 		}
 	},
-
 	// Solutions
 	"flex-layout.col#solutions-content": {
 		"children": [
@@ -159,162 +156,166 @@
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#solutions-title": {
 		"props": {
 			"text": "#### Soluções",
 			"blockClass": "solutions"
 		}
 	},
-
 	"rich-text#solutions-content": {
 		"props": {
 			"text": "A plataforma de computação em nuvem da AWS fornece a flexibilidade de executar seu aplicativo independentemente do tipo de uso ou do setor. Saiba mais sobre as soluções populares mais usadas pelos clientes da AWS:",
 			"blockClass": "solutions"
 		}
 	},
-
 	// App and Site Solutions
 	"flex-layout.row#app-site": {
-		"children": ["flex-layout.col#app-host", "flex-layout.col#sites"]
+		"children": [
+			"flex-layout.col#app-host",
+			"flex-layout.col#sites"
+		]
 	},
-
 	// App Host
 	"flex-layout.col#app-host": {
-		"children": ["rich-text#app-host-title", "rich-text#app-host-content"],
+		"children": [
+			"rich-text#app-host-title",
+			"rich-text#app-host-content"
+		],
 		"props": {
 			"verticalAlign": "top",
 			"paddingBottom": 2
 		}
 	},
-
 	"rich-text#app-host-title": {
 		"props": {
 			"text": "#### Hospedagem de aplicativos",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#app-host-content": {
 		"props": {
 			"text": "Use uma infraestrutura sob demanda e confiável para potencializar seus aplicativos, desde aplicativos internos hospedados a ofertas de SaaS.",
 			"blockClass": "app-host"
 		}
 	},
-
 	// Sites
 	"flex-layout.col#sites": {
-		"children": ["rich-text#sites-title", "rich-text#sites-content"],
+		"children": [
+			"rich-text#sites-title",
+			"rich-text#sites-content"
+		],
 		"props": {
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#sites-title": {
 		"props": {
 			"text": "#### Sites",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#sites-content": {
 		"props": {
 			"text": "Satisfaça suas necessidades dinâmicas de hospedagem na web com a plataforma de infraestrutura escalável da AWS.",
 			"blockClass": "sites"
 		}
 	},
-
 	// Backup and TI
 	"flex-layout.row#backup-ti": {
-		"children": ["flex-layout.col#backup", "flex-layout.col#ti"]
+		"children": [
+			"flex-layout.col#backup",
+			"flex-layout.col#ti"
+		]
 	},
-
 	// Backup
 	"flex-layout.col#backup": {
-		"children": ["rich-text#backup-title", "rich-text#backup-content"],
+		"children": [
+			"rich-text#backup-title",
+			"rich-text#backup-content"
+		],
 		"props": {
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#backup-title": {
 		"props": {
 			"text": "#### Backup e armazenamento",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#backup-content": {
 		"props": {
 			"text": "Armazene dados e crie soluções de backup confiáveis usando os serviços de armazenamento de dados de baixo custo da AWS.",
 			"blockClass": "backup"
 		}
 	},
-
 	// Ti
 	"flex-layout.col#ti": {
-		"children": ["rich-text#ti-title", "rich-text#ti-content"],
+		"children": [
+			"rich-text#ti-title",
+			"rich-text#ti-content"
+		],
 		"props": {
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#ti-title": {
 		"props": {
 			"text": "#### TI empresarial",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#ti-content": {
 		"props": {
 			"text": "Hospede aplicativos de TI internos ou externos no ambiente seguro da AWS.",
 			"blockClass": "ti"
 		}
 	},
-
 	// Content delivery and Database
 	"flex-layout.row#content-database": {
-		"children": ["flex-layout.col#delivery", "flex-layout.col#database"]
+		"children": [
+			"flex-layout.col#delivery",
+			"flex-layout.col#database"
+		]
 	},
-
 	// Content Delivery
 	"flex-layout.col#delivery": {
-		"children": ["rich-text#delivery-title", "rich-text#delivery-content"],
+		"children": [
+			"rich-text#delivery-title",
+			"rich-text#delivery-content"
+		],
 		"props": {
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#delivery-title": {
 		"props": {
 			"text": "#### Entrega de conteúdo",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#delivery-content": {
 		"props": {
 			"text": "Distribua conteúdo de modo rápido e fácil para usuários finais de todo o mundo, a custos baixos e altas velocidades de transferência de dados.",
 			"blockClass": "delivery"
 		}
 	},
-
 	// Database
 	"flex-layout.col#database": {
-		"children": ["rich-text#database-title", "rich-text#database-content"],
+		"children": [
+			"rich-text#database-title",
+			"rich-text#database-content"
+		],
 		"props": {
 			"verticalAlign": "top"
 		}
 	},
-
 	"rich-text#database-title": {
 		"props": {
 			"text": "#### Bancos de dados",
 			"blockClass": "about-titles"
 		}
 	},
-
 	"rich-text#database-content": {
 		"props": {
 			"text": "Aproveite as vantagens de uma variedade de soluções de banco de dados escaláveis, desde software de banco de dados empresarial hospedado até soluções de banco de dados não relacional.",

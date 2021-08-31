@@ -26,6 +26,8 @@
 			"flex-layout.col#logo-desktop",
 			"vtex.menu@2.x:menu#websites",
 			"flex-layout.col#spacer",
+			"search-bar",
+			"flex-layout.col#spacer",
 			"flex-layout.col#login"
 		]
 	},
@@ -122,8 +124,9 @@
 			"menu-item#solucoesMobile",
 			"menu-item#definicaoPrecoMobile",
 			"menu-item#documentacaoMobile",
-			"menu-item#aprendaMobile",
-			"menu-item#aboutAwsMobile"
+			// "menu-item#aprendaMobile",
+			"menu-item#aboutAwsMobile",
+			"search-bar"
 		],
 		"props": {
 			"orientation": "vertical",
@@ -193,21 +196,21 @@
 			"iconToTheRight": true
 		}
 	},
-	"menu-item#aprendaMobile": {
-		"props": {
-			"id": "menu-item-aprenda",
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "#",
-				"noFollow": false,
-				"tagTitle": "Aprenda",
-				"text": "Aprenda"
-			},
-			"iconToTheRight": true
-		}
-	},
+	// "menu-item#aprendaMobile": {
+	// 	"props": {
+	// 		"id": "menu-item-aprenda",
+	// 		"type": "custom",
+	// 		"highlight": false,
+	// 		"itemProps": {
+	// 			"type": "internal",
+	// 			"href": "#",
+	// 			"noFollow": false,
+	// 			"tagTitle": "Aprenda",
+	// 			"text": "Aprenda"
+	// 		},
+	// 		"iconToTheRight": true
+	// 	}
+	// },
 	"menu-item#aboutAwsMobile": {
 		"props": {
 			"id": "menu-item-about-aws",
@@ -232,7 +235,7 @@
 			"menu-item#solucoes",
 			"menu-item#definicaoPreco",
 			"menu-item#documentacao",
-			"menu-item#aprenda",
+			// "menu-item#aprenda",
 			"menu-item#about-aws"
 		]
 	},
@@ -296,21 +299,21 @@
 			"iconToTheRight": true
 		}
 	},
-	"menu-item#aprenda": {
-		"props": {
-			"id": "menu-item-aprenda",
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "#",
-				"noFollow": false,
-				"tagTitle": "Aprenda",
-				"text": "Aprenda"
-			},
-			"iconToTheRight": true
-		}
-	},
+	// "menu-item#aprenda": {
+	// 	"props": {
+	// 		"id": "menu-item-aprenda",
+	// 		"type": "custom",
+	// 		"highlight": false,
+	// 		"itemProps": {
+	// 			"type": "internal",
+	// 			"href": "#",
+	// 			"noFollow": false,
+	// 			"tagTitle": "Aprenda",
+	// 			"text": "Aprenda"
+	// 		},
+	// 		"iconToTheRight": true
+	// 	}
+	// },
 	"menu-item#about-aws": {
 		"props": {
 			"id": "menu-item-about-aws",

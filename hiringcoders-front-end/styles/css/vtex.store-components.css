@@ -1,3 +1,12 @@
+/* Search bar */
+.searchBarContainer {
+	padding: 7px 0 0 0;
+}
+
+.searchBarIcon--search {
+	display: none;
+}
+
 .pr0.flex {
 	align-items: center;
 }
