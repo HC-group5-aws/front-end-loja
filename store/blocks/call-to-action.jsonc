@@ -29,7 +29,7 @@
 			"blockClass": "call-to-action"
 		}
 	},
-	
+
 	// Image Stack Layout
 	"image#call-to-action": {
 		"props": {
@@ -64,7 +64,8 @@
 	"rich-text#call-to-action-description": {
 		"props": {
 			"text": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo. Milhões de clientes, incluindo as startups de crescimento mais rápido, grandes empresas e os maiores órgãos governamentais, estão usando a AWS para reduzirem seus custos, ficarem mais ágeis e inovarem mais rapidamente.",
-			"textColor": "c-on-action-primary"
+			"textColor": "c-on-action-primary",
+			"blockClass": "cta-description"
 		}
 	},
 	// Modal

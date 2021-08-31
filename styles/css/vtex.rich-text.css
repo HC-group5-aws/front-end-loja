@@ -79,9 +79,17 @@
 /* Call To Action */
 .wrapper--title-cta .heading {
 	margin-bottom: 3px;
+	text-align: center;
+}
+
+.wrapper--cta-description {
+	text-align: center;
 }
 
 .paragraph--call-to-action:hover {
 	color: #e77911;
-	font-weight: 800;	
+	font-weight: 800;
+}
+.paragraph--article-card {
+	color: #333;
 }

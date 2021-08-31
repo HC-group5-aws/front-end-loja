@@ -119,3 +119,8 @@
 .flexColChild--call-to-action-texts {
 	max-width: 600px;
 }
+
+/* article-card */
+.flexCol--article-card {
+	padding-right: 0;
+}
