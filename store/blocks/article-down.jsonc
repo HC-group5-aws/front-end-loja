@@ -1,0 +1,170 @@
+{
+  "flex-layout.row#article-down": {
+    "props": {
+      "colGap": 4,
+      "marginTop": 5,
+      "colSizing": "auto",
+      "blockClass": "article-card"
+
+    },
+    "children": [
+      "link#card5",
+      "link#card6",
+      "link#card7",
+      "link#card8"
+    ]
+  },
+  "link#card5": {
+    "props": {
+      "href": "https://aws.amazon.com/pt/resources/analyst-reports/?sc_icampaign=aware_analyst_reports&sc_ichannel=ha&sc_icontent=awssm-evergreen-analyst_reports&sc_iplace=ed&trk=ha_awssm-evergreen-analyst_reports"
+    },
+    "children": [
+      "flex-layout.col#card5"
+    ]
+  },
+  "link#card6": {
+    "props": {
+      "href": "https://aws.amazon.com/pt/training/?sc_icampaign=aware_aws-training&sc_ichannel=ha&sc_icontent=awssm-1749&sc_iplace=ed&trk=ha_awssm-1749"
+    },
+    "children": [
+      "flex-layout.col#card6"
+    ]
+  },
+  "link#card7": {
+    "props": {
+      "href": "https://aws.amazon.com/pt/partners/?sc_icampaign=aware_apn_recruit&sc_ichannel=ha&sc_icontent=awssm-evergreen-apn_recruit&sc_iplace=ed&trk=ha_awssm-evergreen-apn_recruit"
+    },
+    "children": [
+      "flex-layout.col#card7"
+    ]
+  },
+  "link#card8": {
+    "props": {
+      "href": "https://aws.amazon.com/pt/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc&sc_icampaign=aware_builders-library&sc_ichannel=ha&sc_icontent=awssm-6762_aware&sc_iplace=ed&trk=ha_awssm-6762_aware"
+    },
+    "children": [
+      "flex-layout.col#card8"
+    ]
+  },
+  "flex-layout.col#card5": {
+    "props": {
+      "colGap": 4, 
+      "rowGap": 7,     
+      "marginTop": 4,      
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",      
+      "border": "all",
+      "blockClass": "article-card"
+    },
+    "children": [
+      "image#card5",
+      "rich-text#card5"      
+    ]
+  },
+  "image#card5": {
+    "props": {
+      "src": "assets/article/image5.png",
+      "maxHeight": 100
+    }
+  }, 
+  "rich-text#card5": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "**Relatórios de analistas**\nLeia o que os principais analistas, como o Gartner e a IDC, estão dizendo sobre a AWS",
+      "textColor": "c-on-emphasis",
+      "font": "regular",
+      "blockClass": "article-card"
+    }
+  },
+  "flex-layout.col#card6": {
+    "props": {
+      "colGap": 4,      
+      "marginTop": 4,      
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",      
+      "border": "all",
+      "blockClass": "article-card"
+    },
+    "children": [
+      "image#card6",
+      "rich-text#card6"      
+    ]
+  },
+  "image#card6": {
+    "props": {
+      "src": "assets/article/image6.png",
+      "maxHeight": 100
+    }
+  }, 
+  "rich-text#card6": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Treinamento da AWS**\nCursos digitais gratuitos para ajudar a desenvolver as suas habilidades",
+      "textColor": "c-on-emphasis",
+      "font": "regular",
+      "blockClass": "article-card"
+    }
+  },
+  "flex-layout.col#card7": {
+    "props": {
+      "colGap": 4,      
+      "marginTop": 4,    
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "border": "all",
+      "blockClass": "article-card"
+    },
+    "children": [
+      "image#card7",
+      "rich-text#card7"      
+    ]
+  },
+  "image#card7": {
+    "props": {
+      "src": "assets/article/image7.png",
+      "maxHeight": 100
+    }
+  }, 
+  "rich-text#card7": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Rede de parceiros da AWS**\nJunte-se à rede de parceiros da AWS para criar e desenvolver as atividades da empresa na nuvem",
+      "textColor": "c-on-emphasis",
+      "font": "regular",
+      "blockClass": "article-card"
+    }
+  },
+  "flex-layout.col#card8": {
+    "props": {
+      "colGap": 4,      
+      "marginTop": 4,      
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "border": "all",
+      "blockClass": "article-card"
+    },
+    "children": [
+      "image#card8",
+      "rich-text#card8"      
+    ]
+  },
+  "image#card8": {
+    "props": {
+      "src": "assets/article/image8.png",
+      "maxHeight": 100
+    }
+  }, 
+  "rich-text#card8": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**A Amazon Builder's Library**\nSaiba como a Amazon cria e opera softwares por meio dos próprios criadores",
+      "textColor": "c-on-emphasis",
+      "font": "regular",
+      "blockClass": "article-card"
+    }
+  }
+}
