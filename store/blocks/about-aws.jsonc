@@ -1,6 +1,6 @@
 {
 	"store.custom#about-aws": {
-		"blocks": ["capture-data", "flex-layout.row#about-page"]
+		"blocks": ["flex-layout.row#about-page"]
 	},
 
 	"flex-layout.row#about-page": {
