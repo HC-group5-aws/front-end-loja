@@ -1,0 +1,10 @@
+{
+  "admin.app.leads": {
+    "component": "AdminLeads",
+    "path": "/admin/app/leads"
+  },
+  "admin.app.dashboard": {
+    "component": "DashboardLeads",
+    "path": "/admin/app/dashboard"
+  }
+}

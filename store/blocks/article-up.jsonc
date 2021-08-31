@@ -1,0 +1,174 @@
+{
+  "flex-layout.row#article-up": {
+    "props": {
+      "colGap": 4,
+      "marginTop": 5,
+      "colSizing": "auto",
+      "blockClass": "article-card"
+
+    },
+    "children": [
+      "link#card1",
+      "link#card2",
+      "link#card3",
+      "link#card4"
+    ]
+  },
+  "link#card1": {
+    "props": {
+      "href": "https://aws.amazon.com/free/compute/lightsail/?sc_icampaign=Adoption_Campaign_Adoption_Campaign_pm-ha-w33y21-slot1-editorial-ec2-adoption-lightsail_pricing&sc_ichannel=ha&sc_icontent=awssm-8882_pac_customer&sc_ioutcome=Enterprise_Digital_Marketing&sc_iplace=ed&trk=ha_a134p000007CDKqAAO~ha_awssm-8882_pac_customer&trkCampaign=psc-2021-ec2_lightsail-free_tier"
+    },
+    "children": [
+      "flex-layout.col#card1"
+    ]
+  },
+  "link#card2": {
+    "props": {
+      "href": "https://pages.awscloud.com/AWS-Storage-Day-2021.html?sc_icampaign=Event_psc_core-infra_storage-day-2021_sm-editorial&sc_ichannel=ha&sc_icontent=awssm-8879_pac_customer&sc_ioutcome=CSI_Digital_Marketing&sc_iplace=ed&trk=ha_a134p000007C9j5AAC~ha_awssm-8879_pac_customer&trkCampaign=psc_core-infra_storage-day-2021-lp"
+    },
+    "children": [
+      "flex-layout.col#card2"
+    ]
+  },
+  "link#card3": {
+    "props": {
+      "href": "https://aws.amazon.com/elasticsearch-service/?sc_icampaign=Adoption_Campaign_w35y21_edit_slot3_amazones&sc_ichannel=ha&sc_icontent=awssm-8880_pac_customer&sc_ioutcome=Global_Marketing_Campaigns&sc_iplace=ed&trk=ha_a134p000007CGI3AAO~ha_awssm-8880_pac_customer&trkCampaign=gc_2021_elasticsearch_pdp"
+    },
+    "children": [
+      "flex-layout.col#card3"
+    ]
+  },
+  "link#card4": {
+    "props": {
+      "href": "https://aws.amazon.com/pm/ec2-amd/?sc_icampaign=Adoption_Campaign_Adoption_Campaign_pm-ha-w33y21-slot4-editorial-ec2-adoption-amd&sc_ichannel=ha&sc_icontent=awssm-8878_pac_customer&sc_ioutcome=Enterprise_Digital_Marketing&sc_iplace=ed&trk=ha_a134p000007CGahAAG~ha_awssm-8878_pac_customer&trkCampaign=psc-2021-ec2_amd-conversion"
+    },
+    "children": [
+      "flex-layout.col#card4"
+    ]
+  },
+  "flex-layout.col#card1": {
+    "props": {
+      "colGap": 4, 
+      "rowGap": 7,     
+      "marginTop": 4,      
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",      
+      "border": "all",
+      "blockClass": "article-card"
+    },
+    "children": [
+      "image#card1",
+      "rich-text#card1"      
+    ]
+  },
+  "image#card1": {
+    "props": {
+      "src": "assets/article/image1.png",
+      "maxHeight": 100,
+      "maxWidth": "1000"
+    }
+  }, 
+  "rich-text#card1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "**Amazon Lightsail Extended Free Tier**\nNovos clientes ganham até três meses grátis em servidores virtuais privados selecionados",
+      "textColor": "c-on-emphasis",
+      "font": "regular",
+      "blockClass": "article-card"
+    }
+  },
+  "flex-layout.col#card2": {
+    "props": {
+      "colGap": 4, 
+      "rowGap": 7,     
+      "marginTop": 4,      
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",      
+      "border": "all",
+      "blockClass": "article-card"
+    },
+    "children": [
+      "image#card2",
+      "rich-text#card2"      
+    ]
+  },
+  "image#card2": {
+    "props": {
+      "src": "assets/article/image2.png",
+      "maxHeight": 100
+    }
+  }, 
+  "rich-text#card2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**AWS Storage Day Virtual Event**\nJunte-se a nós no dia 2 de setembro para saber o que há de novo no portfólio AWS Storage",
+      "textColor": "c-on-emphasis",
+      "font": "regular",
+      "blockClass": "article-card"
+    }
+  },
+  "flex-layout.col#card3": {
+    "props": {
+      "colGap": 4,  
+      "rowGap": 7,    
+      "marginTop": 4,    
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "border": "all",
+      "blockClass": "article-card"
+    },
+    "children": [
+      "image#card3",
+      "rich-text#card3"      
+    ]
+  },
+  "image#card3": {
+    "props": {
+      "src": "assets/article/image3.png",
+      "maxHeight": 100
+    }
+  }, 
+  "rich-text#card3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Serviço Amazon Elasticsearch compatível com armazenamento frio**\nRetenha os dados acessados com pouca frequência e pague pela computação apenas quando precisar dela",
+      "textColor": "c-on-emphasis",
+      "font": "regular",
+      "blockClass": "article-card"
+    }
+  },
+  "flex-layout.col#card4": {
+    "props": {
+      "colGap": 4,  
+      "rowGap": 7,    
+      "marginTop": 4,      
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "border": "all",
+      "blockClass": "article-card"
+    },
+    "children": [
+      "image#card4",
+      "rich-text#card4"      
+    ]
+  },
+  "image#card4": {
+    "props": {
+      "src": "assets/article/image4.png",
+      "maxHeight": 100
+    }
+  }, 
+  "rich-text#card4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Instâncias EC2 com tecnologia AMD**\nOs processadores AMD Epyc oferecem um custoaté 10% maenor do que instâncias comparáveis",
+      "textColor": "c-on-emphasis",
+      "font": "regular",
+      "blockClass": "article-card"
+    }
+  }
+}

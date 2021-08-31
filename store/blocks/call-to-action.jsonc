@@ -1,7 +1,7 @@
 {
 	"flex-layout.row#call-to-action-desktop": {
 		"props": {
-			"marginTop": 0,
+			"marginTop": 7,
 			"fullWidth": true,
 			"horizontalAlign": "center",
 			"blockClass": "call-to-action"
@@ -29,20 +29,7 @@
 			"blockClass": "call-to-action"
 		}
 	},
-
-	// "flex-layout.row#call-to-action-content": {
-	// 	"children": [
-	// 		"flex-layout.col#call-to-action-texts",
-	// 		"flex-layout.col#call-to-action-video"
-	// 	],
-	// 	"props": {
-	// 		"fullWidth": false,
-	// 		"horizontalAlign": "center",
-	// 		"preserveLayoutOnMobile": false,
-	// 		"blockClass": "call-to-action-content"
-	// 	}
-	// },
-
+	
 	// Image Stack Layout
 	"image#call-to-action": {
 		"props": {
@@ -57,7 +44,7 @@
 		"children": [
 			"rich-text#call-to-action-title",
 			"rich-text#call-to-action-description",
-			"modal-trigger#catpture-leads"
+			"modal-trigger#capture-leads"
 		],
 		"props": {
 			"horizontalAlign": "center",
@@ -69,50 +56,36 @@
 	"rich-text#call-to-action-title": {
 		"props": {
 			"text": "## Computação em nuvem com a AWS",
-			"blockClass": "title-cta"
+			"blockClass": "title-cta",
+			"textColor": "c-on-action-primary"
 		}
 	},
 
 	"rich-text#call-to-action-description": {
 		"props": {
-			"text": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo. Milhões de clientes, incluindo as startups de crescimento mais rápido, grandes empresas e os maiores órgãos governamentais, estão usando a AWS para reduzirem seus custos, ficarem mais ágeis e inovarem mais rapidamente."
+			"text": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo. Milhões de clientes, incluindo as startups de crescimento mais rápido, grandes empresas e os maiores órgãos governamentais, estão usando a AWS para reduzirem seus custos, ficarem mais ágeis e inovarem mais rapidamente.",
+			"textColor": "c-on-action-primary"
 		}
 	},
-
-	// Video
-	// "flex-layout.col#call-to-action-video": {
-	// 	"children": ["iframe#call-to-action"],
-	// 	"props": {
-	// 		"horizontalAlign": "center",
-	// 		"verticalAlign": "middle",
-	// 		"blockClass": "call-to-action-video"
-	// 	}
-	// },
-
-	// "iframe#call-to-action": {
-	// 	"props": {
-	// 		"width": "452",
-	// 		"height": "254",
-	// 		"src": "https://www.youtube.com/embed/a9__D53WsUs"
-	// 	}
-	// },
-
 	// Modal
-	"modal-trigger#catpture-leads": {
-		"children": ["modal-layout#catpture-leads", "rich-text#catpture-leads"]
+	"modal-trigger#capture-leads": {
+		"children": ["modal-layout#capture-leads", "rich-text#capture-leads"]
 	},
 
-	"rich-text#catpture-leads": {
+	"rich-text#capture-leads": {
 		"props": {
-			"text": "Saiba mais"
+			"text": "Saiba mais",
+			"textColor": "c-on-action-primary",
+			"blockClass": "call-to-action"
 		}
 	},
-	"modal-layout#catpture-leads": {
-		"children": ["rich-text#modal-content"]
+	"modal-layout#capture-leads": {
+		"children": ["capture-data"]
 	},
 	"rich-text#modal-content": {
 		"props": {
-			"text": "Hello"
+			"text": "Hello",
+			"textColor": "c-on-emphasis"
 		}
 	}
 }

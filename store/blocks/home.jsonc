@@ -6,7 +6,9 @@
 			"slider-layout#banner",
 			"__fold__",
 			"flex-layout.row#call-to-action-desktop",
-			"flex-layout.row#solutions"
+			"flex-layout.row#article-up",
+			"flex-layout.row#solutions",
+			"flex-layout.row#article-down"
 		]
 	},
 

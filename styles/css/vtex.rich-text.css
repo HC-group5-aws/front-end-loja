@@ -80,3 +80,8 @@
 .wrapper--title-cta .heading {
 	margin-bottom: 3px;
 }
+
+.paragraph--call-to-action:hover {
+	color: #e77911;
+	font-weight: 800;	
+}
