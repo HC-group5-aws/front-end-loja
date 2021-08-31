@@ -7,8 +7,5 @@
   },
   "list-all-leads": {
     "component": "ListAllLeads"
-  },
-  "product": {
-    "component": "Product"
   }
 }
