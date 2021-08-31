@@ -1,0 +1,116 @@
+{
+	"vtex.menu@2.x:menu#help-menu": {
+		"children": [
+			"rich-text#help",
+			"menu-item#contact",
+			"menu-item#career",
+			"menu-item#support",
+			"menu-item#knowledge",
+			"menu-item#aws-support",
+			"menu-item#legal",
+			"menu-item#javascript"
+		],
+		"props": {
+			"blockClass": "footer"
+		}
+	},
+	"rich-text#help": {
+		"props": {
+			"text": "Help",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "t-heading-6",
+			"blockClass": "menu"
+		}
+	},
+	"menu-item#contact": {
+		"props": {
+			"id": "menu-item-contact",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Entre em contato conosco",
+				"text": "Entre em contato conosco"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#career": {
+		"props": {
+			"id": "menu-item-career",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Carreiras na AWS",
+				"text": "Carreiras na AWS"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#support": {
+		"props": {
+			"id": "menu-item-support",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Crie um tíquete de suporte",
+				"text": "Crie um tíquete de suporte"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#knowledge": {
+		"props": {
+			"id": "menu-item-knowledge",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Central de conhecimento",
+				"text": "Central de conhecimento"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#aws-support": {
+		"props": {
+			"id": "menu-item-aws-support",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Visão geral do AWS Support",
+				"text": "Visão geral do AWS Support"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#legal": {
+		"props": {
+			"id": "menu-item-legal",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Jurídico",
+				"text": "Jurídico"
+			},
+			"blockClass": "footer"
+		}
+	}
+}

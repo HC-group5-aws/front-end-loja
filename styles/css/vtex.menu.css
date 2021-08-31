@@ -1,0 +1,36 @@
+.styledLinkContent {
+	width: auto;
+	color: #d5dbdb;
+}
+
+.styledLinkContent:hover {
+	color: #ec7211;
+}
+
+/* Footer */
+.footerLayout--container {
+	background: #253241;
+}
+.menuContainer--footer {
+	flex-direction: column;
+}
+.menuContainerNav--footer {
+	max-width: 230px;
+}
+
+.menuItem--footer {
+	width: auto;
+}
+
+.styledLinkContainer--footer {
+	padding: 0.1rem;
+	margin: 0.1rem;
+}
+
+.styledLink--footer {
+	font-size: 0.875rem;
+}
+
+/* .styledLinkContent--footer:hover {
+	color: #ec7211;
+} */

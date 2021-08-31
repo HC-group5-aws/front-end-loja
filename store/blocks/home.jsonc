@@ -1,0 +1,54 @@
+{
+	"store.home": {
+		"blocks": [
+			// "responsive-layout.desktop",
+			// "responsive-layout.mobile"
+			"slider-layout#banner",
+			"__fold__",
+			"flex-layout.row#call-to-action-desktop",
+			"flex-layout.row#solutions"
+		]
+	},
+
+	// "responsive-layout.desktop": {
+	// 	"children": [
+	// 		"slider-layout#banner",
+	// 		"__fold__",
+	// 		"flex-layout.row#call-to-action-desktop",
+	// 		"flex-layout.row#solutions"
+	// 	]
+	// },
+
+	// "responsive-layout.mobile": {
+	// 	"children": [
+	// 		"slider-layout#banner",
+	// 		"__fold__",
+	// 		"flex-layout.row#call-to-action-desktop",
+	// 		"flex-layout.row#solutions"
+	// 	]
+	// },
+
+	"flex-layout.row#solutions": {
+		"children": ["flex-layout.col#solutions"]
+	},
+
+	"flex-layout.col#solutions": {
+		"props": {
+			"blockClass": "solucoes"
+		},
+		"children": [
+			"rich-text#solutions",
+			"flex-layout.row#soluitonsUp",
+			"flex-layout.row#soluitonsDown"
+		]
+	},
+	"rich-text#solutions": {
+		"props": {
+			"text": "### Soluções",
+			"textAlignment": "CENTER",
+			"textPosition": "left",
+			"font": "t-heading-2",
+			"blockClass": "solucoes"
+		}
+	}
+}

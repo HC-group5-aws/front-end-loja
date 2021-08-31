@@ -1,0 +1,131 @@
+{
+	"vtex.menu@2.x:menu#developers-menu": {
+		"children": [
+			"rich-text#developer",
+			"menu-item#developer-center",
+			"menu-item#sdks-and-tools",
+			"menu-item#net",
+			"menu-item#python",
+			"menu-item#java",
+			"menu-item#php",
+			"menu-item#javascript"
+		],
+		"props": {
+			"blockClass": "footer"
+		}
+	},
+	"rich-text#developer": {
+		"props": {
+			"text": "Desenvolvedores na <br/> AWS",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "t-heading-6",
+			"blockClass": "menu"
+		}
+	},
+	"menu-item#developer-center": {
+		"props": {
+			"id": "menu-item-developer-center",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Conceitos básicos",
+				"text": "Conceitos básicos"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#sdks-and-tools": {
+		"props": {
+			"id": "menu-item-sdks-and-tools",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "SDKs e ferramentas",
+				"text": "SDKs e ferramentas"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#net": {
+		"props": {
+			"id": "menu-item-net",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": ".NET na AWS",
+				"text": ".NET na AWS"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#python": {
+		"props": {
+			"id": "menu-item-python",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Python na AWS",
+				"text": "Python na AWS"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#java": {
+		"props": {
+			"id": "menu-item-java",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Java na AWS",
+				"text": "Java na AWS"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#php": {
+		"props": {
+			"id": "menu-item-php",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "PHP na AWS",
+				"text": "PHP na AWS"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#javascript": {
+		"props": {
+			"id": "menu-item-javascript",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "JavaScript na AWS",
+				"text": "JavaScript na AWS"
+			},
+			"blockClass": "footer"
+		}
+	}
+}

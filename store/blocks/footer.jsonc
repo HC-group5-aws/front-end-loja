@@ -1,0 +1,59 @@
+{
+	"footer": {
+		"blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+	},
+	"footer-layout.desktop": {
+		"children": ["flex-layout.row#footer"],
+		"props": {
+			"blockClass": "container"
+		}
+	},
+	"footer-layout.mobile": {
+		"children": ["flex-layout.row#footer-mobile1"],
+		"props": {
+			"blockClass": "container"
+		}
+	},
+	"flex-layout.row#footer": {
+		"children": [
+			"vtex.menu@2.x:menu#about-menu",
+			"vtex.menu@2.x:menu#resources-menu",
+			"vtex.menu@2.x:menu#developers-menu",
+			"vtex.menu@2.x:menu#help-menu",
+			"flex-layout.col#social-networks"
+		],
+		"props": {
+			"preserveLayoutOnMobile": true,
+			"preventHorizontalStretch": false,
+			"preventVerticalStretch": true,
+			"horizontalAlign": "center",
+			"rowGap": 10,
+			"paddingTop": 6,
+			"paddingBottom": 8,
+			"blockClass": "content-footer"
+		}
+	},
+	"flex-layout.row#footer-mobile": {
+		"children": ["flex-layout.row#footer-mobile1"],
+		"props": {
+			"preventHorizontalStretch": true,
+			"fullWidth": true
+		}
+	},
+	"flex-layout.row#footer-mobile1": {
+		"children": [
+			"vtex.menu@2.x:menu#about-menu",
+			"vtex.menu@2.x:menu#resources-menu",
+			"vtex.menu@2.x:menu#developers-menu",
+			"vtex.menu@2.x:menu#help-menu",
+			"flex-layout.col#social-networks"
+		],
+		"props": {
+			"preserveLayoutOnMobile": true,
+			"preventVerticalStretch": true,
+			"preventHorizontalStretch": true,
+			"fullWidth": false,
+			"blockClass": "content-footer"
+		}
+	}
+}

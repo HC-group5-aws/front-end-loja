@@ -1,0 +1,329 @@
+{
+	"header": {
+		"blocks": ["header-layout.desktop", "header-layout.mobile"]
+	},
+	"header.full": {
+		"blocks": ["header-layout.desktop", "header-layout.mobile"]
+	},
+	"header-layout.desktop": {
+		"children": ["sticky-layout#desktop"]
+	},
+	"sticky-layout#desktop": {
+		"props": {
+			"blockClass": "sticky-header"
+		},
+		"children": ["flex-layout.row#desktop"]
+	},
+	"flex-layout.row#desktop": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": [
+			"flex-layout.col#logo-desktop",
+			"vtex.menu@2.x:menu#websites",
+			"flex-layout.col#spacer",
+			"flex-layout.col#login"
+		]
+	},
+	"flex-layout.col#login": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"preventVerticalStretch": true,
+			"width": "50%",
+			"blockClass": "login"
+		},
+		"children": ["login"]
+	},
+	"flex-layout.col#spacer": {
+		"props": {
+			"width": "grow"
+		}
+	},
+	"flex-layout.col#logo-desktop": {
+		"props": {
+			"verticalAlign": "middle"
+		},
+		"children": ["logo"]
+	},
+	"logo": {
+		"props": {
+			"title": "Logo",
+			"href": "/",
+			"url": "assets/brand/aws.png",
+			"width": "50"
+		}
+	},
+	// Login button
+	"login": {
+		"props": {
+			"iconLabel": "Logar na AWS"
+		}
+	},
+	"header-layout.mobile": {
+		"children": ["sticky-layout#mobile"]
+	},
+	"sticky-layout#mobile": {
+		"children": ["flex-layout.row#mobile"]
+	},
+	"flex-layout.row#mobile": {
+		"children": [
+			"drawer",
+			"logo",
+			"flex-layout.col#spacer",
+			"flex-layout.col#loginMobile"
+		],
+
+		"props": {
+			"blockClass": "main-header-mobile",
+			"preventHorizontalStretch": true,
+			"preserveLayoutOnMobile": true,
+			"fullWidth": true
+		}
+	},
+	"flex-layout.col#loginMobile": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"preventVerticalStretch": true,
+			"width": "50%"
+		},
+		"children": ["login#mobile"]
+	},
+	"login#mobile": {
+		"props": {
+			"iconLabel": "Entrar",
+			"blockClass": "login"
+		}
+	},
+
+	// mobile drawer
+
+	"drawer": {
+		"props": {
+			"backdropMode": "default"
+		},
+		"children": ["flex-layout.col#drawer"]
+	},
+	"flex-layout.col#drawer": {
+		"children": ["menu#drawer"],
+		"props": {
+			"width": "100%"
+		}
+	},
+
+	"menu#drawer": {
+		"children": [
+			"menu-item#produtosMobile",
+			"menu-item#solucoesMobile",
+			"menu-item#definicaoPrecoMobile",
+			"menu-item#documentacaoMobile",
+			"menu-item#aprendaMobile",
+			"menu-item#aboutAwsMobile"
+		],
+		"props": {
+			"orientation": "vertical",
+			"blockClass": "drawer"
+		}
+	},
+	// menu mobile
+
+	"menu-item#produtosMobile": {
+		"props": {
+			"id": "menu-item-produtos",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Produtos",
+				"text": "Produtos"
+			},
+			"iconToTheRight": true
+		}
+	},
+
+	"menu-item#solucoesMobile": {
+		"props": {
+			"id": "menu-item-solucoes",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Solucoes",
+				"text": "Soluções"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#definicaoPrecoMobile": {
+		"props": {
+			"id": "menu-item-definicaoPreco",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Preco",
+				"text": "Preço"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#documentacaoMobile": {
+		"props": {
+			"id": "menu-item-documentacao",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Documentacao",
+				"text": "Documentação"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#aprendaMobile": {
+		"props": {
+			"id": "menu-item-aprenda",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Aprenda",
+				"text": "Aprenda"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#aboutAwsMobile": {
+		"props": {
+			"id": "menu-item-about-aws",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/about-aws",
+				"noFollow": false,
+				"tagTitle": "Sobre",
+				"text": "Sobre"
+			},
+			"iconToTheRight": true
+		}
+	},
+
+	// desktop menu
+
+	"vtex.menu@2.x:menu#websites": {
+		"children": [
+			"menu-item#produtos",
+			"menu-item#solucoes",
+			"menu-item#definicaoPreco",
+			"menu-item#documentacao",
+			"menu-item#aprenda",
+			"menu-item#about-aws"
+		]
+	},
+	"menu-item#produtos": {
+		"props": {
+			"id": "menu-item-produtos",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Produtos",
+				"text": "Produtos"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#solucoes": {
+		"props": {
+			"id": "menu-item-solucoes",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Solucoes",
+				"text": "Soluções"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#definicaoPreco": {
+		"props": {
+			"id": "menu-item-definicaoPreco",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Preco",
+				"text": "Preço"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#documentacao": {
+		"props": {
+			"id": "menu-item-documentacao",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Documentacao",
+				"text": "Documentação"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#aprenda": {
+		"props": {
+			"id": "menu-item-aprenda",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Aprenda",
+				"text": "Aprenda"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#about-aws": {
+		"props": {
+			"id": "menu-item-about-aws",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/about-aws",
+				"noFollow": false,
+				"tagTitle": "Sobre",
+				"text": "Sobre"
+			},
+			"iconToTheRight": true
+		}
+	}
+}

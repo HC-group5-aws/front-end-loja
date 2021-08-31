@@ -1,0 +1,164 @@
+{
+	"vtex.menu@2.x:menu#about-menu": {
+		"children": [
+			"rich-text#about",
+			"menu-item#about",
+			"menu-item#about",
+			"menu-item#cloud",
+			"menu-item#devops",
+			"menu-item#conteiner",
+			"menu-item#data-lake",
+			"menu-item#security-aws",
+			"menu-item#news",
+			"menu-item#blog",
+			"menu-item#press-realease"
+		],
+		"props": {
+			"blockClass": "footer"
+		}
+	},
+	"rich-text#about": {
+		"props": {
+			"text": "Saiba mais sobre a AWS",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "t-heading-6",
+			"blockClass": "menu"
+		}
+	},
+	"menu-item#about": {
+		"props": {
+			"id": "menu-item-about",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Oque é a AWS?",
+				"text": "Oque é a AWS?"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#cloud": {
+		"props": {
+			"id": "menu-item-cloud",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "O que é computação em nuvem?",
+				"text": "O que é computação em nuvem?"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#devops": {
+		"props": {
+			"id": "menu-item-devops",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "O que é o DevOps?",
+				"text": "O que é o DevOps?"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#conteiner": {
+		"props": {
+			"id": "menu-item-conteiner",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "O que é um contêiner?",
+				"text": "O que é um contêiner?"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#data-lake": {
+		"props": {
+			"id": "menu-item-data-lake",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "O que é um data lake?",
+				"text": "O que é um data lake?"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#security-aws": {
+		"props": {
+			"id": "menu-item-security-aws",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Segurança na Nuvem AWS",
+				"text": "Segurança na Nuvem AWS"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#news": {
+		"props": {
+			"id": "menu-item-news",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Novidades",
+				"text": "Novidades"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#blog": {
+		"props": {
+			"id": "menu-item-blog",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Blogs",
+				"text": "Blogs"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#press-realease": {
+		"props": {
+			"id": "menu-item-press-realease",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Press Release",
+				"text": "Presse Release"
+			},
+			"blockClass": "footer"
+		}
+	}
+}

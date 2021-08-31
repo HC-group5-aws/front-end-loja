@@ -1,0 +1,131 @@
+{
+	"vtex.menu@2.x:menu#resources-menu": {
+		"children": [
+			"rich-text#resources",
+			"menu-item#concepts",
+			"menu-item#trainning",
+			"menu-item#portfolio",
+			"menu-item#architecture",
+			"menu-item#faqs",
+			"menu-item#reports",
+			"menu-item#partners"
+		],
+		"props": {
+			"blockClass": "footer"
+		}
+	},
+	"rich-text#resources": {
+		"props": {
+			"text": "Recursos da AWS",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "t-heading-6",
+			"blockClass": "menu"
+		}
+	},
+	"menu-item#concepts": {
+		"props": {
+			"id": "menu-item-concepts",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Conceitos básicos",
+				"text": "Conceitos básicos"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#trainning": {
+		"props": {
+			"id": "menu-item-trainning",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Treinamento e certificação",
+				"text": "Treinamento e certificação"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#portfolio": {
+		"props": {
+			"id": "menu-item-portfolio",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Portfólio de soluções",
+				"text": "Portfólio de soluções"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#architecture": {
+		"props": {
+			"id": "menu-item-portfolio",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Centro de Arquitetura",
+				"text": "Centro de Arquitetura"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#faqs": {
+		"props": {
+			"id": "menu-item-faqs",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Perguntas frequentes",
+				"text": "Perguntas frequentes"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#reports": {
+		"props": {
+			"id": "menu-item-reports",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Relatórios de analistas",
+				"text": "Relatórios de analistas"
+			},
+			"blockClass": "footer"
+		}
+	},
+	"menu-item#partners": {
+		"props": {
+			"id": "menu-item-partners",
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": false,
+				"tagTitle": "Rede de parceiros da AWS",
+				"text": "Rede de parceiros da AWS"
+			},
+			"blockClass": "footer"
+		}
+	}
+}

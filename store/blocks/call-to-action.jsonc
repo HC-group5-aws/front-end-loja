@@ -1,0 +1,118 @@
+{
+	"flex-layout.row#call-to-action-desktop": {
+		"props": {
+			"marginTop": 0,
+			"fullWidth": true,
+			"horizontalAlign": "center",
+			"blockClass": "call-to-action"
+		},
+		"children": ["flex-layout.col#call-to-action-container"]
+	},
+
+	"flex-layout.col#call-to-action-container": {
+		"props": {
+			"preventVerticalStretch": true,
+			"paddingLeft": 5,
+			"paddingRight": 5,
+			"blockClass": "call-to-action"
+		},
+		"children": ["stack-layout#call-to-action"]
+	},
+
+	"stack-layout#call-to-action": {
+		"children": [
+			"image#call-to-action",
+			"flex-layout.col#call-to-action-texts"
+			// "flex-layout.row#call-to-action-content"
+		],
+		"props": {
+			"blockClass": "call-to-action"
+		}
+	},
+
+	// "flex-layout.row#call-to-action-content": {
+	// 	"children": [
+	// 		"flex-layout.col#call-to-action-texts",
+	// 		"flex-layout.col#call-to-action-video"
+	// 	],
+	// 	"props": {
+	// 		"fullWidth": false,
+	// 		"horizontalAlign": "center",
+	// 		"preserveLayoutOnMobile": false,
+	// 		"blockClass": "call-to-action-content"
+	// 	}
+	// },
+
+	// Image Stack Layout
+	"image#call-to-action": {
+		"props": {
+			"blockClass": "cover",
+			"width": "100%",
+			"src": "assets/call-to-action/call-to-action.jpg"
+		}
+	},
+
+	// Texts - Call To Action
+	"flex-layout.col#call-to-action-texts": {
+		"children": [
+			"rich-text#call-to-action-title",
+			"rich-text#call-to-action-description",
+			"modal-trigger#catpture-leads"
+		],
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"blockClass": "call-to-action-texts"
+		}
+	},
+
+	"rich-text#call-to-action-title": {
+		"props": {
+			"text": "## Computação em nuvem com a AWS",
+			"blockClass": "title-cta"
+		}
+	},
+
+	"rich-text#call-to-action-description": {
+		"props": {
+			"text": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo. Milhões de clientes, incluindo as startups de crescimento mais rápido, grandes empresas e os maiores órgãos governamentais, estão usando a AWS para reduzirem seus custos, ficarem mais ágeis e inovarem mais rapidamente."
+		}
+	},
+
+	// Video
+	// "flex-layout.col#call-to-action-video": {
+	// 	"children": ["iframe#call-to-action"],
+	// 	"props": {
+	// 		"horizontalAlign": "center",
+	// 		"verticalAlign": "middle",
+	// 		"blockClass": "call-to-action-video"
+	// 	}
+	// },
+
+	// "iframe#call-to-action": {
+	// 	"props": {
+	// 		"width": "452",
+	// 		"height": "254",
+	// 		"src": "https://www.youtube.com/embed/a9__D53WsUs"
+	// 	}
+	// },
+
+	// Modal
+	"modal-trigger#catpture-leads": {
+		"children": ["modal-layout#catpture-leads", "rich-text#catpture-leads"]
+	},
+
+	"rich-text#catpture-leads": {
+		"props": {
+			"text": "Saiba mais"
+		}
+	},
+	"modal-layout#catpture-leads": {
+		"children": ["rich-text#modal-content"]
+	},
+	"rich-text#modal-content": {
+		"props": {
+			"text": "Hello"
+		}
+	}
+}

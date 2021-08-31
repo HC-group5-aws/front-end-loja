@@ -1,0 +1,64 @@
+{
+	"slider-layout#banner": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": false,
+			"showNavigationArrows": "desktopOnly",
+			"blockClass": "carousel",
+			"fullWidth": true,
+			"slideTransition": {
+				"speed": 400,
+				"delay": 0,
+				"timing": ""
+			},
+			"autoplay": {
+				"timeout": 3000,
+				"stopOnHover": true
+			}
+		},
+		"children": [
+			"image#banner1",
+			"image#banner2",
+			"image#banner3",
+			"image#banner4"
+		]
+	},
+	"image#banner1": {
+		"props": {
+			"src": "assets/banner/hero-art-slide.png",
+			"alt": "Trabalho remoto e ensino a distância",
+			"link": "/",
+			"blockClass": "carouselImage",
+			"fullWidth": true
+		}
+	},
+
+	"image#banner2": {
+		"props": {
+			"src": "assets/banner/centro-de-recursos.png",
+			"link": "/",
+			"alt": "Centro de recursos de conceitos básicos",
+			"blockClass": "carouselImage"
+		}
+	},
+	"image#banner3": {
+		"props": {
+			"src": "assets/banner/gratuitamente.png",
+			"link": "/",
+			"alt": "Use gratuitamente o Amazon |EC2, o S3 e muitos outros por um ano",
+			"blockClass": "carouselImage"
+		}
+	},
+	"image#banner4": {
+		"props": {
+			"src": "assets/banner/recursos-da-aws.png",
+			"link": "/",
+			"alt": "Conheça a plataform, os produtos de nuvem e os recursosda AWS",
+			"blockClass": "carouselImage"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"flex-layout.col#social-networks": {
+		"children": ["login", "social-networks#footer", "rich-text#diversity"],
+		"props": {
+			"horizontalAlign": "left",
+			"verticalAlign": "top",
+			"blockClass": "social-network"
+		}
+	},
+	"social-networks#footer": {
+		"props": {
+			"socialNetworks": [
+				{ "url": "https://twitter.com/awscloud", "name": "Twitter" },
+				{
+					"url": "https://www.facebook.com/amazonwebservices",
+					"name": "Facebook"
+				},
+				{ "url": "https://www.twitch.tv/aws", "name": "Twitch" }
+			]
+		}
+	},
+	"rich-text#diversity": {
+		"props": {
+			"text": "A Amazon é uma empresa empregadora orientada pelos fundamentos de igualdade de oportunidades e ações afirmativas, que não faz distinção entre minorias, mulheres, portadores de deficiência, veteranos, identidade de gênero, orientação sexual nem idade.",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"font": "paragraph",
+			"blockClass": "diversity-text"
+		}
+	}
+}

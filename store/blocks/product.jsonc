@@ -1,0 +1,93 @@
+{
+	"store.product": {
+		"children": ["flex-layout.row#main-content"]
+	},
+	"flex-layout.row#main-content": {
+		"props": {
+			"marginTop": 0,
+			"fullWidth": true,
+			"horizontalAlign": "center",
+			"blockClass": "product-page"
+		},
+		"children": ["flex-layout.col#content"]
+	},
+	"flex-layout.col#content": {
+		"props": {
+			"preventVerticalStretch": true,
+			"paddingLeft": 5,
+			"paddingRight": 5,
+			"blockClass": "product-details"
+		},
+		"children": [
+			"stack-layout#header"
+			// "breadcrumb",
+			// "product-images#image",
+			// "add-to-cart-button#details"
+		]
+	},
+	"product-images#image": {
+		"props": {
+			"blockClass": "details"
+		}
+	},
+	"stack-layout#header": {
+		"children": ["image#header", "flex-layout.col#header"],
+		"props": {
+			"blockClass": "header"
+		}
+	},
+
+	"flex-layout.col#header": {
+		"children": [
+			"product-name#title",
+			"product-description#description",
+			"flex-layout.row#product-details"
+		],
+		"props": {
+			"fullWidth": true,
+			"blockClass": "product-header"
+		}
+	},
+	"product-name#title": {
+		"props": {
+			"blockClass": "title"
+		}
+	},
+	"image#header": {
+		"props": {
+			"blockClass": "cover",
+			"width": "100%",
+			"src": "assets/product/img-header_AWS_Lambda.jpg"
+		}
+	},
+	"product-description#description": {
+		"props": {
+			"title": "",
+			"showTitle": "",
+			"blockClass": "description"
+		}
+	},
+
+	"flex-layout.row#product-details": {
+		"props": {
+			"horizontalAlign": "left",
+			"verticalAlign": "middle",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true
+		},
+		"children": ["product-price", "add-to-cart-button#details"]
+	},
+	"product-price": {
+		"props": {
+			"blockClass": "price"
+		}
+	},
+	"add-to-cart-button#details": {
+		"props": {
+			"text": "Assinar",
+			"customToastUrl": "/checkout/#/cart",
+			"blockClass": "subscribe"
+		}
+	}
+}

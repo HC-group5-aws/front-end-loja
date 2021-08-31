@@ -1,0 +1,139 @@
+{   
+    "flex-layout.row#soluitonsUp":{
+        "props":{
+          "colGap": 6
+        },
+        "children":["link#info1", "link#info2", "link#info3"]
+    },
+    "flex-layout.row#soluitonsDown":{
+        "props":{
+          "colGap": 6
+        },
+        "children":["link#info4", "link#info5", "link#info6"]
+    },
+
+    // we have to have one link fir ech info-card
+
+    "link#info1":{
+      "props": {
+        "href": "#"
+      },
+      "children":["info-card#1"]
+    },
+    "link#info2":{
+      "props": {
+        "href": "#"
+      },
+      "children":["info-card#2"]
+    },
+    "link#info3":{
+      "props": {
+        "href": "#"
+      },
+      "children":["info-card#3"]
+    },
+    "link#info4":{
+      "props": {
+        "href": "#"
+      },
+      "children":["info-card#4"]
+    },
+    "link#info5":{
+      "props": {
+        "href": "#"
+      },
+      "children":["info-card#5"]
+    },
+    "link#info6":{
+      "props": {
+        "href": "#"
+      },
+      "children":["info-card#6"]
+    },
+  
+
+    "info-card#1": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "headline": "### Hospedagem e aplicativos",
+          "subhead": "Use uma infraestrutura sob demanda e confiável para potencializar seus aplicativos, desde aplicativos internos hospedados a ofertas de SaaS.",
+          "callToActionText": "Saiba mais",
+          "textAlignment": "left",
+          "textMode": {"headline":"rich-text", "subhead":"rich-text"},
+          "callToActionMode": "none"
+
+          }
+        },
+      "info-card#2": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "headline": "### Sites",
+          "subhead": "Satisfaça suas necessidades dinâmicas de hospedagem na web com a plataforma de infraestrutura escalável da AWS.",
+          "callToActionText": "Saiba mais",
+          "callToActionUrl": "/sale/d",
+          "textAlignment": "left",
+          "textMode": {"headline":"rich-text", "subhead":"rich-text"},
+          "callToActionMode": "none"
+        }
+      },
+      "info-card#3": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "headline": "### Backup e armazenamento",
+          "subhead": "Armazene dados e crie soluções de backup confiáveis usando os serviços de armazenamento de dados de baixo custo da AWS.",
+          "callToActionText": "Saiba mais",
+          "callToActionUrl": "/sale/d",
+          "textAlignment": "left",
+          "textMode": {"headline":"rich-text", "subhead":"rich-text"},
+          "callToActionMode": "none"
+        }
+      },
+      "info-card#4": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "headline": "### TI empresarial    ",
+          "subhead":"Hospede aplicativos de TI internos ou externos no ambiente seguro da AWS.    ",
+          "callToActionText": "Saiba mais",
+          "callToActionUrl": "/sale/d",
+          "textAlignment": "left",
+          "textMode": {"headline":"rich-text", "subhead":"rich-text"},
+          "callToActionMode": "none"
+        }
+      },
+      "info-card#5": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "headline": "### Entrega de conteúdo <b>",
+          "subhead":"Distribua conteúdo de modo rápido e fácil para usuários finais de todo o mundo, a custos baixos e altas velocidades de transferência de dados.",
+          "callToActionText": "Saiba mais",
+          "callToActionUrl": "/sale/d",
+          "textAlignment": "left",
+          "textMode": {"headline":"rich-text", "subhead":"rich-text"},
+          "callToActionMode": "none"
+        }
+      },
+      "info-card#6": {
+        "props": {
+          "id": "info-card-example",
+          "isFullModeStyle": false,
+          "textPosition": "left",
+          "headline": "### Bancos de dados",
+          "subhead":"Aproveite as vantagens de uma variedade de soluções de banco de dados escaláveis, desde software de banco de dados empresarial hospedado até soluções de banco de dados não relacional.",
+          "callToActionText": "Saiba mais",
+          "callToActionUrl": "/sale/d",
+          "textAlignment": "left",
+          "textMode": {"headline":"rich-text", "subhead":"rich-text"},
+          "callToActionMode": "none"
+        }
+      }
+}
