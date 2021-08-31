@@ -1,0 +1,15 @@
+{
+  "section": "analytics",
+  "titleId": "leads.navigation.label",
+  "searchKeyWordsHelpers": "leads.navigation.search.kws",
+  "subSectionItems": [
+    {
+      "labelId": "leads.navigation.dashboard",
+      "path": "/admin/dashboard"
+    },
+    {
+      "labelId": "leads.navigation.leads",
+      "path": "/admin/leads"
+    }
+  ]
+}
