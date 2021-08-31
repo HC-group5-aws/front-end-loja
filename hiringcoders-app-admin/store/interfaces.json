@@ -1,0 +1,11 @@
+{
+  "update-data": {
+    "component": "UpdateLeadData"
+  },
+  "capture-data": {
+    "component": "CaptureData"
+  },
+  "list-all-leads": {
+    "component": "ListAllLeads"
+  }
+}
