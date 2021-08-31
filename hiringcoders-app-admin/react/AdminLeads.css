@@ -1,0 +1,68 @@
+body {
+  font-family: "open sans", sans-serif;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  border-bottom: 2px solid black;
+}
+
+thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+thead button.ascending::after {
+  content: "👇";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+thead button.descending::after {
+  content: "☝️";
+  display: inline-block;
+  margin-left: 1em;
+}
+
+tbody td {
+  padding: 0.5em;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody td span {
+  color: blue;
+  font-size: 25px;
+}
+
+tbody td button {
+  color: white;
+  font-size: 25px;
+  margin-left: 5px;
+  background-color: #0f3e99;
+  border-radius: 8px;
+  border: 0;
+}
+
+tbody td button :hover {
+  filter: brightness(0.8);
+}
+
+.lead {
+  color: green;
+}
+
+tbody tr:hover {
+  background-color: #eee;
+}
